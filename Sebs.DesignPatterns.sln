@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sebs.Creational.Builder.Fac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sebs.Creational.Builder.Stepwise", "Sebs.Creational.Builder.Stepwise\Sebs.Creational.Builder.Stepwise.csproj", "{C0D46766-91DB-4610-A50B-E1380DF3F625}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sebs.Creational.FactoryMethod", "Sebs.Creational.FactoryMethod\Sebs.Creational.FactoryMethod.csproj", "{5A09F067-359F-4F54-A7F4-F7C122E758A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{C0D46766-91DB-4610-A50B-E1380DF3F625}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0D46766-91DB-4610-A50B-E1380DF3F625}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0D46766-91DB-4610-A50B-E1380DF3F625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A09F067-359F-4F54-A7F4-F7C122E758A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A09F067-359F-4F54-A7F4-F7C122E758A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A09F067-359F-4F54-A7F4-F7C122E758A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A09F067-359F-4F54-A7F4-F7C122E758A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
