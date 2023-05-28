@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sebs.Creational.FactoryMeth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sebs.MemoryManagement.Dispose", "Sebs.MemoryManagement.Dispose\Sebs.MemoryManagement.Dispose.csproj", "{9F438A70-B63C-494D-AD93-2AF466A02855}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sebs.Creational.Prototype.Chat", "Sebs.Creational.Prototype.Chat\Sebs.Creational.Prototype.Chat.csproj", "{55ED30B8-38B5-4DDE-82D3-7B3BC3EB375D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{9F438A70-B63C-494D-AD93-2AF466A02855}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F438A70-B63C-494D-AD93-2AF466A02855}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F438A70-B63C-494D-AD93-2AF466A02855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55ED30B8-38B5-4DDE-82D3-7B3BC3EB375D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55ED30B8-38B5-4DDE-82D3-7B3BC3EB375D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55ED30B8-38B5-4DDE-82D3-7B3BC3EB375D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55ED30B8-38B5-4DDE-82D3-7B3BC3EB375D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
