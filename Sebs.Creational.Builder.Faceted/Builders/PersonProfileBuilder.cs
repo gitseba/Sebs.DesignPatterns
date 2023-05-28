@@ -4,9 +4,9 @@ namespace Sebs.Creational.Builder.Faceted.Builders
 {
     public class PersonProfileBuilder : PersonBuilder
     {
-        public PersonProfileBuilder(PersonModel p)
+        public PersonProfileBuilder(PersonModel personModel)
         {
-            person = person;
+            person = personModel;
         }
 
         public PersonProfileBuilder Name(string name)

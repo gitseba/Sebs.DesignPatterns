@@ -7,8 +7,8 @@ namespace Sebs.Creational.Builder.Faceted.Builders
     {
         protected PersonModel person = new PersonModel();
 
-        public PersonProfileBuilder Profile => new PersonProfileBuilder(person);
-        public PersonAddressBuilder Lives => new PersonAddressBuilder(person);
+        public PersonProfileBuilder Profile => new(person);
+        public PersonAddressBuilder Lives => new(person);
 
         public static implicit operator PersonModel(PersonBuilder pb)
         {

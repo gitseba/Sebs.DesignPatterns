@@ -11,28 +11,28 @@ namespace Sebs.Creational.Builder.Stepwise.Builders
         /// </summary>
         private class Implementation : ISpecifyCarType, ISpecifyWheelSize, IBuildCar
         {
-            private CarModel car = new CarModel();
+            private readonly CarModel _car = new();
             public ISpecifyWheelSize OfType(CarType carType)
             {
-                car.CarType = carType;
+                _car.CarType = carType;
                 return this;
             }
 
             public IBuildCar WithWheels(int size)
             {
-                switch (car.CarType)
+                switch (_car.CarType)
                 {
                     case CarType.Crossover when size < 17 || size > 20:
                     case CarType.Sedan when size < 15 || size > 17:
-                    default: throw new ArgumentException($"Wrong size of wheel for {car.CarType}");
+                    default: throw new ArgumentException($"Wrong size of wheel for {_car.CarType}");
                 }
-                car.WheelSize = size;
+                _car.WheelSize = size;
                 return this;
             }
 
             public CarModel Build()
             {
-                return car;
+                return _car;
             }
         }
 

@@ -4,9 +4,9 @@ namespace Sebs.Creational.Builder.Faceted.Builders
 {
     public class PersonAddressBuilder : PersonBuilder
     {
-        public PersonAddressBuilder(PersonModel p)
+        public PersonAddressBuilder(PersonModel personModel)
         {
-            person = person;
+            person = personModel;
         }
 
         public PersonAddressBuilder StaysAt(string address)

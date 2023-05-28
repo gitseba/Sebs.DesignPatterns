@@ -11,7 +11,7 @@
         /// Get specific object 
         /// </summary>
         /// <returns> Created object </returns>
-        public static T Instance<T>()
+        public static T? Instance<T>()
            where T : class
         {
             var obj = Activator.CreateInstance<T>();
@@ -23,11 +23,11 @@
         /// </summary>
         /// <param name="param"> dependencies </param>
         /// <returns> Created object </returns>
-        public static T Instance<T>(object[] param)
+        public static T? Instance<T>(object[] param)
             where T : class
         {
             var obj = Activator.CreateInstance(typeof(T), param);
-            return (T)obj ?? null; //obj != null ? obj : null;
+            return obj as T ?? null; //obj != null ? obj : null;
         }
     }
 }
